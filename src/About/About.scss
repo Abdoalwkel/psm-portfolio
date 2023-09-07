@@ -1,0 +1,117 @@
+
+  
+.about-img{
+
+  position: relative;
+  width: 21rem;
+  height: 21rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 63px;
+  right: 70px;
+
+
+  img{
+
+    width: 87%;
+    height: 89%;
+    border: 0.2rem solid #fff;
+    border-radius: 50%;
+
+
+  }
+
+  .crilec-spain{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(0);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border-top: .3rem solid rgb(48, 48, 51);
+    border-bottom: .3rem solid rgb(48, 48, 51);
+    border-right: .3rem solid rgb(86, 86, 88);
+    border-left: .3rem solid rgb(86, 86, 88);
+    
+    /* هنا كود الانيميشن الدايرة ال بتلف حوليين الصورة */
+    animation: aboutSpinner 4s linear infinite;
+    
+
+  }
+
+  @keyframes aboutSpinner{
+
+    100%{
+        transform: translate(-50%,-50%) rotate(360deg);
+
+
+    }
+
+}
+
+// .app__profile-item{
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   margin-left: 118px;
+// }
+
+
+
+  
+
+
+
+}
+
+.about-write{
+
+
+  position: relative;
+  top: 8rem;
+  right: 2rem;
+    padding: 41px 43px;
+    width: 42rem;
+    border: 3px solid black;
+    border-radius: 10px;
+
+    p{
+
+      color: #fff;
+      letter-spacing: 1px;
+      font-weight: 100;
+      font-size: 17px
+    }
+}
+@media screen and (max-width: 1253px){
+
+  .app__profile-item{
+  
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 135px;
+  
+  }
+    }
+        
+      
+  
+            @media screen and (max-width: 568px){
+    
+              .about-write{
+    
+                width: 24rem;
+                position: relative;
+                right: 60px;
+                top: 86px;
+            
+    
+              }
+                }
+    

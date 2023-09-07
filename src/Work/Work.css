@@ -1,0 +1,103 @@
+#app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 143px;}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide-shadow-right {
+  background-image: none;
+}
+
+
+.swiper-slide img{
+  width: 104%;
+  height: 42vh;
+  border-radius: 13px;
+}
+@media screen and (max-width: 575px) {
+
+  .swiper-slide img{
+    height: 43vh;
+  }
+}
+
+.slide{
+  position: relative;
+}
+
+.slide .pro-titel{
+  position: absolute;
+  top: 0px;
+  left: 0;
+  text-align: center;
+  padding: 9px 16px;
+  background-color: #343da3d7;
+  width: 104%;
+  height: 101%; 
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: 0.5s;
+    visibility: hidden;
+}
+
+.slider .coll .SlideComponent .mySwiper .slide:hover .pro-titel{
+  transform: scale(1);
+  visibility: visible;
+}
+
+.slide .pro-titel h4{
+  color: #fff;
+  font-size: 26px;
+}
+
+.slide .pro-titel p{
+  color: #b3a9a9;
+  font-size: 17px;
+}
+
+.slide .pro-titel .icons a{
+  font-size: 39px;
+  padding: 0 24px;
+  color: black;
+}
+
+
+
+.ContainerA{
+    width: 100%;
+    overflow: hidden;
+}
+.coll{
+  width: 100%;
+  overflow: hidden;
+}
+
+
+
+
+

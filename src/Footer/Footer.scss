@@ -1,0 +1,243 @@
+
+.form-section{
+    position: relative;
+    top: 60px;
+}
+.app__footer {
+    flex: 1;
+    width: 100%;
+    flex-direction: column;
+  
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+  
+
+form{
+
+    display: flex;
+    flex-direction: column;
+    width: 166%;
+    position: relative;
+    top: 30px;
+
+
+
+    input{
+
+        padding: 14px 24px;
+        border: 3px solid #edfcff;
+        border-radius: 6px;
+        outline: none;
+        font-size: 19px;
+        font-weight: 500;
+        background: #9fa7af;
+    margin-bottom: 15px;
+    transition: 0.4s all;
+    width: 47rem;
+    box-shadow: 6px 6px 10px rgba(0,0,0,1),
+    1px 1px 10px rgba(255, 255, 255, 0.6);
+
+    &:focus{
+        box-shadow: none;
+
+    background: rgb(215, 225, 233);
+}
+
+    }
+
+
+    textarea{
+
+        padding: 14px 24px;
+        border: 3px solid #edfcff;
+        border-radius: 6px;
+        outline: none;
+        font-size: 19px;
+        font-weight: 500;
+        background: #9fa7af;
+        margin-bottom: 15px;
+        transition: 0.4s all;
+        height: 27vh;
+        width: 47rem;        box-shadow: 6px 6px 10px rgba(0,0,0,1),
+        1px 1px 10px rgba(255, 255, 255, 0.6);
+
+    &:focus{
+    box-shadow: none;
+        background: rgb(215, 225, 233);
+    }
+    }
+
+    .sub{
+        width: 12rem;
+        font-size: 21px;
+        padding: 10px 0;
+            border-radius: 7px;
+
+            background: #6f777e;
+        
+        position: relative;
+        left: 274px;
+        top: 11px;
+transition: 0.4s all;
+border: none;
+color: #fff;
+
+box-shadow: 6px 6px 10px rgb(129, 142, 148),
+1px 1px 10px rgba(70, 67, 67, 0.6);
+
+
+        &:hover{
+
+            background: #9b9c9c;
+            color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 5px #9b9c9c,
+                        0 0 25px #9b9c9c,
+                        0 0 50px #9b9c9c,
+                        0 0 100px #9b9c9c;
+
+        }
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          @media screen and (max-width: 876px){
+    form{
+
+        input{
+            width: 40rem;
+        
+        }
+        textarea{
+            width: 40rem;
+        }
+    }
+
+            
+              }
+
+
+
+            @media screen and (max-width: 764px){
+                form{
+                    position: relative;
+                top: 13px;
+                    input{
+                        width: 37rem;
+                    
+                    }
+                    textarea{
+                        width: 37rem;
+                    }
+                    .sub{
+                        position: relative;
+                        left: 191px;
+                        top: 38px;
+                    }
+                }
+            
+                        
+                        }
+
+                        
+            @media screen and (max-width: 708px){
+                form{
+                    position: relative;
+                top: 13px;
+                    input{
+                        width: 35rem;
+                    
+                    }
+                    textarea{
+                        width: 35rem;
+                    }
+                    .sub{
+                        position: relative;
+                        left: 191px;
+                        top: 38px;
+                    }
+                }
+            
+                        
+                        }
+                        @media screen and (max-width: 686px){
+                            form{
+                                position: relative;
+                            top: 13px;
+                                input{
+                                    width: 31rem;
+                                
+                                }
+                                textarea{
+                                    width: 31rem;
+                                }
+                                .sub{
+                                    position: relative;
+                                    left: 142px;
+                                    top: 38px;
+                                }
+                            }
+                        
+                                    
+                                    }
+
+                                    @media screen and (max-width: 612px){
+                                        form{
+                                            position: relative;
+                                        top: 13px;
+                                            input{
+                                                width: 25rem;
+                                            
+                                            }
+                                            textarea{
+                                                width: 25rem;
+                                            }
+                                            .sub{
+                                                position: relative;
+                                                left: 100px;
+                                                top: 38px;
+                                                font-size: 19px;
+                                            }
+                                        }
+                                    
+                                                
+                                                }
+
+                                                @media screen and (max-width: 396px){
+                                                    form{
+                                                        position: relative;
+                                                    top: 13px;
+                                                        input{
+                                                            width: 20rem;
+                                                        
+                                                        }
+                                                        textarea{
+                                                            width: 20rem;
+                                                        }
+                                                        .sub{
+                                                            position: relative;
+                                                            left: 64px;
+                                                            top: 59px;
+                                                            font-size: 15px;
+                                                        }
+                                                    }
+                                                
+                                                            
+                                                            }

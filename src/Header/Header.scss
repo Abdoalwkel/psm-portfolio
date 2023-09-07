@@ -1,0 +1,425 @@
+#home {
+    position: relative;
+    // background: url("../assets/bgIMG.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+  
+    // disable the default padding styles
+    .app__wrapper {
+      padding: 0;
+  
+      .copyright {
+        display: none;
+      }
+    }
+  }
+  
+  .app__header {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+
+    padding: 6rem 2rem 0rem;
+  
+    @media screen and (min-width: 2000px) {
+      padding-top: 8rem;
+    }
+  
+    @media screen and (max-width: 1200px) {
+      flex-direction: column;
+    }
+  
+    @media screen and (max-width: 450px) {
+      padding: 6rem 1rem 2rem;
+    }
+  }
+  
+  .app__header-info {
+    flex: 0.65;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+  
+    margin: 0 2rem;
+  
+    @media screen and (max-width: 1200px) {
+      width: 100%;
+      margin-right: 0rem;
+    }
+  }
+
+
+
+  .app__header-badge {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    .badge-cmp,
+    .tag-cmp {
+      padding: 1rem 2rem;
+      border-radius: 15px;
+      flex-direction: row;
+      
+      width: auto;
+      box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.1);
+    
+    }
+  
+    .tag-cmp {
+      flex-direction: column;
+      margin-top: 3rem;
+  
+      p {
+        width: 100%;
+        text-transform: uppercase;
+        text-align: right;
+      }
+    }
+  
+    span {
+      font-size: 2.5rem;
+  
+      @media screen and (min-width: 2000px) {
+        font-size: 5rem;
+      }
+    }
+  
+    @media screen and (max-width: 1200px) {
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+  }
+  
+  .app__header-circles {
+    flex: 0.75;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 100%;
+    margin-left: 1rem;
+  
+    div {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+  
+      background: var(--white-color);
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  
+      img {
+        width: 60%;
+        height: 60%;
+      }
+    }
+  
+    // circles with different height & width
+  
+    div:nth-child(1) {
+      width: 100px;
+      height: 100px;
+    }
+  
+    div:nth-child(2) {
+      margin: 1.75rem;
+      width: 150px;
+      height: 150px;
+    }
+  
+    div:nth-child(3) {
+      width: 70px;
+      height: 70px;
+    }
+  
+    @media screen and (min-width: 2000px) {
+      div:nth-child(2) {
+        width: 400px;
+        height: 400px;
+      }
+  
+      div:nth-child(3) {
+        width: 170px;
+        height: 170px;
+      }
+  
+      div:nth-child(1) {
+        width: 200px;
+        height: 200px;
+      }
+    }
+  
+    @media screen and (max-width: 1200px) {
+      width: 100%;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-left: 0;
+  
+      div {
+        margin: 1rem;
+      }
+    }
+
+
+  }
+
+  @media screen and (max-width: 1200px){
+
+.Cv{
+  top: 217px;
+  right: 214px;
+}
+
+  }
+
+  @media screen and (max-width: 991px){
+
+    .Cv{
+      top: 483px;
+      left: 94px;
+      z-index: 2;
+    }
+    
+      }
+      @media screen and (max-width: 800px){
+
+        .Cv{
+          top: 483px;
+          left: -12px;
+          z-index: 2;
+        }
+        
+          }
+          @media screen and (max-width: 634px){
+
+            .Cv{
+              left: -3px;
+              z-index: 2;
+              top: -183px;
+              font-size: 12px;
+            }
+            .app__header-info{
+              width: 456px;
+
+            }
+              }
+
+
+
+              @media screen and (max-width: 530px){
+
+                .badge-cmp{
+                  width: 81%;
+                  position: relative;
+                  left: 30px;
+                }
+
+              }
+              @media screen and (max-width: 500px){
+
+                .Cv{
+                  z-index: 2;
+                  left: -47px;
+                  top: -183px;
+                  font-size: 10px;
+                  font-weight: 500;
+                }
+                .app__header-info{
+                  width: 456px;
+    
+                }
+                  }
+                  @media screen and (max-width: 460px){
+.button-parrot{
+  width: 44%;
+  left: 12rem;
+
+}
+                    .Cv{
+                      z-index: 2;
+                      left: -71px;
+                                            top: -199px;
+                      font-size: 9px;
+                      font-weight: 500;
+                    }
+                    .app__header-info{
+                      width: 456px;
+        
+                    }
+                      }
+                      @media screen and (max-width: 400px){
+                        .button-parrot{
+                          width: 44%;
+                          left: 12rem;
+                          width: 23rem;
+
+                        }
+                                            .Cv{
+                                              z-index: 2;
+                                              left: -110px;
+                                              top: -199px;
+                                              font-size: 9px;
+                                              font-weight: 500;
+                                            }
+                                            .app__header-info{
+                                              width: 456px;
+                                
+                                            }
+                                              }
+                        
+
+
+  .app__header-img {
+    flex: 1;
+    height: 100%;
+  
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+  
+    img {
+      width: 100%;
+      object-fit: contain;
+      z-index: 1;
+    }
+  
+    .overlay_circle {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 0;
+      width: 100%;
+      height: 90%;
+    }
+
+  
+    @media screen and (max-width: 1200px) {
+      margin: 2rem 0;
+    }
+
+
+    
+  }
+  
+
+
+
+
+
+
+
+
+  .Cv {
+    background: transparent;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 50px;
+    padding: 0.8rem 2rem;
+    font: 18px ;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    transition: 0.2s ease-in-out;
+    letter-spacing: 2px;
+    text-decoration: none;
+  }
+  
+  .name {
+    width: 100%;
+    text-align: center;
+    padding: 0 0 3rem;
+    padding-top: 4rem;
+    font: 500 14px "Rubik", sans-serif;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  }
+  
+  .button-parrot{
+    position: absolute;
+    top: 31rem;
+    left: 287px;
+
+  }
+  .button-parrot .parrot {
+    position: absolute;
+    width: 60px;
+    text-align: center;
+    animation: blink 0.8s infinite;
+    color: transparent;
+  }
+  
+  .button-parrot .parrot:before {
+    content: "Click Me!";
+  }
+  
+  .button-parrot .parrot:nth-child(1) {
+    top: -30px;
+    left: -40px;
+    font: 12px/1 "Margarine", sans-serif;
+    transform: rotate(-20deg);
+    animation-duration: 0.5s;
+  }
+  
+  .button-parrot .parrot:nth-child(2) {
+    font: 12px/1 "Margarine", sans-serif;
+    right: -40px;
+    top: -20px;
+    transform: rotate(15deg);
+    animation-duration: 0.3s;
+  }
+  
+  .button-parrot .parrot:nth-child(3) {
+    font: 16px/1 "Margarine", sans-serif;
+    top: -60px;
+    left: 15px;
+    transform: rotate(10deg);
+    animation-duration: 1s;
+  }
+  
+  .button-parrot .parrot:nth-child(4) {
+    font: 18px/1 "Margarine", sans-serif;
+    top: -70px;
+    left: 95px;
+    transform: rotate(2deg);
+    animation-duration: 0.7s;
+  }
+  
+  .button-parrot .parrot:nth-child(5) {
+    font: 14px/1 "Margarine", sans-serif;
+    top: 80px;
+    left: 105px;
+    transform: rotate(-20deg);
+    animation-duration: 0.8s;
+  }
+  
+  .button-parrot .parrot:nth-child(6) {
+    font: 12px/1 "Margarine", sans-serif;
+    top: 80px;
+    left: 5px;
+    transform: rotate(10deg);
+    animation-duration: 1.2s;
+  }
+  
+  .button-parrot .Cv:hover .parrot:before {
+    content: "Do it!";
+    width: 70px;
+  }
+  
+  @keyframes blink {
+    25%, 75% {
+      color: transparent;
+    }
+  
+    40%, 60% {
+      color: #fff;
+    }
+  }
