@@ -30,7 +30,6 @@ body {
   background-image: none;
 }
 
-
 .swiper-slide img{
   width: 104%;
   height: 46.5vh;
@@ -39,7 +38,13 @@ body {
 @media screen and (max-width: 575px) {
 
   .swiper-slide img{
-    height: 48vh;
+    height: 34.6vh;
+  }
+}
+@media screen and (min-width: 582px) and (max-width: 1200) {
+
+  .swiper-slide img{
+    height: 34.5vh;
   }
 }
 
