@@ -39,7 +39,7 @@ body {
 @media screen and (max-width: 575px) {
 
   .swiper-slide img{
-    height: 47.8vh;
+    height: 48vh;
   }
 }
 
