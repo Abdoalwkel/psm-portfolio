@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/psm-portfolio/static/css/main.298c8e77.css",
-    "main.js": "/psm-portfolio/static/js/main.50bb2037.js",
+    "main.css": "/psm-portfolio/static/css/main.47e7f719.css",
+    "main.js": "/psm-portfolio/static/js/main.745da9c6.js",
     "static/media/bgWhite.png": "/psm-portfolio/static/media/bgWhite.79658cadae50b3b16ee5.png",
     "static/media/timeZpne.png": "/psm-portfolio/static/media/timeZpne.ab3ff04f402a6eed3b8d.png",
     "static/media/profile.png": "/psm-portfolio/static/media/profile.a38f39178ba6114c3cfb.png",
@@ -11,9 +11,11 @@
     "static/media/pro_1.png": "/psm-portfolio/static/media/pro_1.811a1bf17ad09f5768d0.png",
     "static/media/logo.png": "/psm-portfolio/static/media/logo.8be3635179ab21de3fcb.png",
     "static/media/portfolio.png": "/psm-portfolio/static/media/portfolio.a654f08420bc8f938e27.png",
+    "static/media/bootstrap.png": "/psm-portfolio/static/media/bootstrap.673bb7bb462a6dc4ac6c.png",
     "static/media/bolt.png": "/psm-portfolio/static/media/bolt.64e7d9d30ece478ef3a0.png",
     "static/media/redux.png": "/psm-portfolio/static/media/redux.c9be37e0fece29c624b0.png",
     "static/media/sass.png": "/psm-portfolio/static/media/sass.36e863bfbcb25c109d00.png",
+    "static/media/github.png": "/psm-portfolio/static/media/github.4637f07d49ee52660e95.png",
     "static/media/node.png": "/psm-portfolio/static/media/node.8683d89cf78ffae3d1f7.png",
     "static/media/cpp.png": "/psm-portfolio/static/media/cpp.9002a804bbfa0354d0b8.png",
     "static/media/graphql.png": "/psm-portfolio/static/media/graphql.0372057049181c5de51a.png",
@@ -26,11 +28,11 @@
     "static/media/skype.png": "/psm-portfolio/static/media/skype.c8d7ee175da5b4c8a8ab.png",
     "index.html": "/psm-portfolio/index.html",
     "static/media/circle.svg": "/psm-portfolio/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
-    "main.298c8e77.css.map": "/psm-portfolio/static/css/main.298c8e77.css.map",
-    "main.50bb2037.js.map": "/psm-portfolio/static/js/main.50bb2037.js.map"
+    "main.47e7f719.css.map": "/psm-portfolio/static/css/main.47e7f719.css.map",
+    "main.745da9c6.js.map": "/psm-portfolio/static/js/main.745da9c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.298c8e77.css",
-    "static/js/main.50bb2037.js"
+    "static/css/main.47e7f719.css",
+    "static/js/main.745da9c6.js"
   ]
 }
