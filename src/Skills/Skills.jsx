@@ -24,7 +24,7 @@ const Skills = () => {
     <div id='skills' className='app__titel'>
 
 <div className="head-name">
-<h2 className="head-text app-titel">Skills <span>& Experiences</span></h2>
+<h2 className="app-titel">Skills <span>& Experiences</span></h2>
 
 </div>
 
@@ -93,6 +93,21 @@ const Skills = () => {
 <div className="app__icon  app__flex">
 <img src={images.node} alt="" />
 <p className="p-text">Node js</p>
+</div>
+</Col>
+
+  <Col lg={1} md={4} sm={6}>
+<div className="app__icon  app__flex">
+<img src={images.github} alt="" />
+<p className="p-text">Github</p>
+</div>
+</Col>
+
+
+<Col lg={1} md={4} sm={6}>
+<div className="app__icon  app__flex">
+<img src={images.bootstrap} alt="" />
+<p className="p-text">Bootstrap</p>
 </div>
 </Col>
 
