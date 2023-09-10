@@ -91,6 +91,43 @@ body {
 }
 
 
+.app-titel{
+  font-size: 2.95rem;
+  font-weight: 800;
+  text-align: center;
+  color: var(--black-color);
+  text-transform: capitalize;
+  display: block;
+}
+.app-titel span{
+  color: var(--secondary-color);
+
+}
+
+@media screen and (max-width: 575px) {
+    
+  .app-titel{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 2.5rem;
+  }
+
+  
+  
+  }
+  @media screen and (max-width: 398px) {
+    
+    .app-titel{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      font-size: 2rem;
+    }
+  
+    
+    
+    }
 
 
 
