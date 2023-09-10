@@ -29,7 +29,7 @@ import bolt from '../assets/bolt.png';
 import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
-import bootstrap from '../assets/bootstrap.jpg';
+import bootstrap from '../assets/bootstrap.png';
 import github from '../assets/github.png'
 
 export default {
