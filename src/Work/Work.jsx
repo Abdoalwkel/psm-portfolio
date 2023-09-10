@@ -37,7 +37,7 @@ const Work = () => {
 
 <div className="head-titel">
 
-<h2  className="head-text app-titel">
+<h2  className="app-titel">
   Welcome In My 
  <span>Amazing  Portfolio</span>
   </h2>
